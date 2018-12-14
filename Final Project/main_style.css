@@ -1,0 +1,112 @@
+body {
+ margin:0; background-color:#FFFAF0;
+}
+#a{ 
+color:#191970;font-size:3em; font-family: 'Gamja Flower', cursive;
+}
+a:visited {
+    color: #000000;
+}
+.menu{
+	position: relative;
+	display: inline-block;
+}
+.menubtn{
+	background-color:#4B0082;
+	color: white;
+	padding: 16px;
+	font-size:16px;
+	border: none;
+}
+.menu-content{
+	display:none;
+	position:absolute;
+	background-color:#f9f9f9;
+	min-width:0;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.menu-content a:hover {background-color: #f1f1f1;}
+.menu:hover .menu-content {display: block;}
+.menu:hover .menubtn {background-color:#191970;}
+.container {
+	display:flex;
+	flex-flow:row wrap;
+	padding: 3
+}
+.item1{
+	flex:1 1 22.5%;
+	font-size:1.4em;
+	margin-left:7%;
+	margin-right:2%;
+	font-family: 'Teko', sans-serif; 
+}
+a:link{
+	text-decoration:none;
+}
+#bold1{
+	font-weight:bold; font-size:2em; color:#191970;
+}
+#bold2{
+	font-weight:bold; font-size:2em; color:#191970;
+}
+#bold3{
+	font-weight:bold; font-size:2em; color:#191970;
+}
+.item2{
+	flex:1 1 22.5%;
+	font-size:1.4em;
+	font-family: 'Teko', sans-serif;
+}
+.item3{
+	flex:1 1 45%;
+	font-size:1.4em;
+	 font-family: 'Teko', sans-serif;
+}
+}
+.nav{
+	list-style:none;
+	box-sizing:border-box;
+	background-color:green;
+}
+ul.nav>li a{
+	text-decoration:none;
+	float:left;
+	padding-right: 5%;
+	text-align:left;
+}
+header{
+	background-attachment:black;
+}
+.background{
+	background-image: url("./images/background.jpg");
+	background-color:#cccccc;
+	height:750px;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	background-repeat: no-repeat;
+	margin:0;
+}
+.background-text{
+	float: left;
+	text-align: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:white;
+	font-weight:bold;
+}
+p{
+	font-size:20px;
+}
+footer{
+	text-align:center; font-weight:bold; background-color:#191970; color:#FFFAF0; font-family: 'Rokkitt', serif;
+	}
